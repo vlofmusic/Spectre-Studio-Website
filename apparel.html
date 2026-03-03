@@ -1,0 +1,117 @@
+<!-- apparel.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Spectre Studio — Apparel</title>
+
+    <!-- reuse your existing stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- optional: favicon -->
+    <!-- <link rel="icon" href="images/favicon.png"> -->
+</head>
+
+<body class="page-apparel">
+
+    <!-- NAV (same component) -->
+    <header class="site-header">
+        <nav class="glass-nav" aria-label="Primary navigation">
+            <!-- link back to homepage sections -->
+            <a class="nav-link" href="index.html#services">Services</a>
+            <a class="nav-link" href="index.html#work">Work</a>
+
+            <a class="nav-logo" href="index.html" aria-label="Home">
+                <img class="logo" src="images/spectre_logo_white.png" alt="Spectre" />
+            </a>
+
+            <!-- current page -->
+            <a class="nav-link is-active" href="apparel.html" aria-current="page">Apparel</a>
+            <a class="nav-link" href="index.html#about">About</a>
+        </nav>
+    </header>
+
+    <!-- APPAREL HERO -->
+    <main>
+        <section class="apparel-hero">
+            <!-- Option A: image background -->
+            <img class="apparel-hero-bg" src="images/apparel/spectre_hoodie_hero.jpeg" alt="" />
+
+            <!-- Option B: video background (uncomment if you want video) -->
+            <!--
+      <video class="apparel-hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="videos/apparel-hero.mp4" type="video/mp4" />
+      </video>
+      -->
+
+            <div class="apparel-hero-inner">
+                <div class="apparel-hero-copy">
+                    <h1>Apparel</h1>
+                    <p>Minimal silhouettes. Premium materials. Studio-first comfort.</p>
+                    <a class="cta" href="#collection">Explore Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- COLLECTION -->
+        <section class="apparel-section" id="collection">
+            <div class="apparel-head">
+                <span class="section-pill">Collection</span>
+            </div>
+
+            <div class="apparel-grid">
+                <article class="apparel-card">
+                    <img class="apparel-card-bg" src="images/apparel/spectre_hoodie_hero.jpeg" alt="" />
+                    <span class="chip">Signature</span>
+                    <div class="apparel-card-overlay">
+                        <h3 class="apparel-title">Hoodies</h3>
+                        <p class="apparel-desc">Heavyweight, clean branding, perfect fit.</p>
+                    </div>
+                </article>
+
+                <article class="apparel-card">
+                    <img class="apparel-card-bg" src="images/apparel/tees.jpg" alt="" />
+                    <span class="chip">Essentials</span>
+                    <div class="apparel-card-overlay">
+                        <h3 class="apparel-title">T-Shirts</h3>
+                        <p class="apparel-desc">Soft touch, structured shape, everyday.</p>
+                    </div>
+                </article>
+
+                <article class="apparel-card">
+                    <img class="apparel-card-bg" src="images/apparel/accessories.jpg" alt="" />
+                    <span class="chip">Limited</span>
+                    <div class="apparel-card-overlay">
+                        <h3 class="apparel-title">Accessories</h3>
+                        <p class="apparel-desc">Caps, totes, details that complete the look.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FOOTER (reuse your existing footer) -->
+        <footer class="site-footer" id="contact">
+            <div class="footer-glass">
+                <h2 class="footer-title">
+                    Spectre Creative Studio – where innovation meets speed and precision
+                </h2>
+
+                <div class="footer-bottom">
+                    <nav class="footer-nav" aria-label="Footer">
+                        <a href="index.html#work">Works</a>
+                        <a href="index.html#services">Services</a>
+                        <a href="index.html#team">Team</a>
+                        <a href="mailto:hello@spectre-std.com">Contact</a>
+                    </nav>
+
+                    <a class="footer-email" href="mailto:hello@spectre-std.com">hello@spectre-std.com</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
