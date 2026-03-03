@@ -1338,7 +1338,7 @@ body {
     position: relative;
     grid-column: span 4;
     min-height: 360px;
-    border-radius: var(--radius-lg);
+    border-radius: 18px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.10);
     box-shadow: 0 24px 70px rgba(0, 0, 0, 0.50);
